@@ -14,10 +14,14 @@ import {
 import Head from 'next/head'
 
 export default function Home() {
+
+
+
+  
   return (
     <div>
       <Head>
-        <title>My page title</title>
+        <title>KANDYLAND</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
       <div className="bg-primary w-full overflow-hidden">

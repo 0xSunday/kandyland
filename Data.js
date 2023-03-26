@@ -16,7 +16,7 @@ import {
 export const navLinks = [
   {
     id: "founders",
-    title: "FOUNDER",
+    title: "TEAM",
   },
   {
     id: "nft",
@@ -92,18 +92,23 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Discord Users",
-    value: "22000+",
+    title: "Youtube",
+    value: "1.8M+",
   },
   {
     id: "stats-2",
-    title: "Twitter Followers",
-    value: "80000+",
+    title: "TikTok",
+    value: "200K+",
   },
   {
     id: "stats-3",
-    title: "Acive Members",
-    value: "10000+ ",
+    title: "Twitter",
+    value: "100K+ ",
+  },
+  {
+    id: "stats-3",
+    title: "Discord",
+    value: "70K+ ",
   },
 ];
 
@@ -196,21 +201,3 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];

@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Image from "next/image";
 const GetStarted = () => {
   return (
-  <Link href="https://discord.gg/etherproject">
+  <Link href="https://discord.gg/kandyland-io">
     <div className="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer ">
       <div className=" flex flex-col justify-center items-center bg-primary hover:bg-black w-[100%] h-[100%] rounded-full">
         <div className="flex flex-row justify-center items-center gap-1 ">
