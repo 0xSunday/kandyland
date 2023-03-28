@@ -70,7 +70,7 @@ export const features = [
     id: "feature-3",
     title: "Suzy Snacktime (core-team)",
     link: "https://twitter.com/SuzySnacktime",
-    content: "co-founder of Ether, visionary and excellent Leader.",
+    content: "core team of kandyland, visionary and excellent Leader.",
   },
 ];
 
