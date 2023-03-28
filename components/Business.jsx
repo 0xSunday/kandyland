@@ -52,7 +52,7 @@ const Business = () => (
       whileInView="show"
       variants={fadeIn("left", "tween", "0.2", 1)}
       viewport={{ once: true, amount: 0.25 }}
-      className={`${layout.sectionImg} mx-7 flex-col justify-start sm:justify-around gap-5`}
+      className={`${layout.sectionImg} md:mx-7 flex-col justify-start sm:justify-around gap-5`}
     >
       {features.map((feature, index) => (
         // <Link href={feature.link}>

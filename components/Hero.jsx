@@ -22,7 +22,7 @@ const Hero = () => {
       variants={staggerContainer}
       viewport={{ once: true, amount: 0.25 }}
       id="#home"
-      className="flex flex-1 md:flex-row flex-col  py-6"
+      className="flex flex-1 md:flex-row flex-col  py-6 md:px-10"
     >
       <motion.div
         initial="hidden"
@@ -73,7 +73,7 @@ const Hero = () => {
           alt="robot"
           width={700}
           height={700}
-          className=" relative z-[5] mt-8 sm:mt-0 flex-row-reverse -scale-x-100 rounded-t-full"
+          className=" relative z-[5] p-3 mt-8 sm:mt-0 flex-row-reverse -scale-x-100 rounded-t-full"
         />
         <div className="absolute -z-[0] w-[40%] h-[35%] right-0 top-14 pink__gradient "></div>
         <div className="absolute -z-[1] w-[80%] h-[80%] rounded-full right-0 bottom-40 whtie__gradient "></div>
