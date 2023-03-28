@@ -45,7 +45,7 @@ const Billings = () => (
       }
     >
       <Image
-        src="/logo3.png"
+        src="/kandyland_nft1.png"
         width={700}
         height={700}
         alt="bill"
@@ -63,35 +63,46 @@ const Billings = () => (
         variants={textVariant(0.4)}
         className={`${styles.heading2} text-[40px]`}
       >
-        Supply And Price
+        What is Goldenlane Studio
       </motion.h2>
       <motion.p
         variants={textVariant(0.6)}
-        className={`${styles.paragraph} max-w-[470px] mt-3 `}
+        className={`${styles.paragraph} md:w-[90%] mt-3 `}
       >
-        Total supply will be 10000, 1750 will be whitelisted, 250 for the
-        treasury and 8000 for public Mint Prince for public will be 1ETH and
-        whitelist mint price 0.5ETH
+        This is a studio that has 90+ projects behind, one of the most
+        successful projects is "Five Nights At Freddy's" series which has
+        collected more than 100 million views. the team has 15 years of
+        experience with an already large and established audience
       </motion.p>
-      <motion.p
-        variants={textVariant(0.8)}
-        className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}
+
+      <motion.h2
+        variants={textVariant(1)}
+        className={`${styles.heading2} text-[40px]`}
       >
-        Mint Date Quater 2 ,2023 (exact data will be announced soon)
+        What is the vision ?
+      </motion.h2>
+      <motion.p
+        variants={textVariant(1.2)}
+        className={`${styles.paragraph} md:w-[90%] mt-3`}
+      >
+        the vision of the team is to create a project based on the storytelling
+        with animation art where characters living in an amusement park, put it
+        all together to create an unforgettable experience for the people, there
+        4 main characters of the collection were shown.
       </motion.p>
       <motion.h2
         variants={textVariant(1)}
         className={`${styles.heading2} text-[40px]`}
       >
-        Percentage Of Types
+        launch date
       </motion.h2>
       <motion.p
         variants={textVariant(1.2)}
-        className={`${styles.paragraph} max-w-[470px] mt-3`}
+        className={`${styles.paragraph} md:w-[90%] mt-3`}
       >
-        Total 5000 Male and 5000 Female .Out of Total supply 50% will be Humans
-        30% will be Mecha 19% will be IMP/Vampire 0.95% will be Currupt 0.05
-        will be 1 OF 1 (1 of 1 is special)
+        launch will be at Q1, 2023 so you still have some time to get in the
+        community if you dont wanna miss this opportunity. price still TBA,
+        supply will be around 6666-8888.
       </motion.p>
     </motion.div>
   </motion.section>

@@ -28,20 +28,23 @@ const Business = () => (
       </motion.h2>
       <motion.p
         variants={textVariant(0.6)}
-        className={`${styles.paragraph2} max-w-[470px] mt-5`}
+        className={`${styles.paragraph2} md:w-[90%] mt-5`}
       >
-        The world of art is vast and diverse, with countless individuals working
-        to create and share their unique visions with the world.
+        Hopper is the founder of Kandyland, an NFT project that showcases unique digital artwork.With Kandyland, Hopper is leading the way in the NFT space, and his innovative approach to digital art ownership is changing the way people think about art and collectibles.
       </motion.p>
       <motion.p
         variants={textVariant(0.8)}
-        className={`${styles.paragraph2} max-w-[470px] mt-5`}
+        className={`${styles.paragraph2} md:w-[90%] mt-5`}
       >
-        One such person is @visionofviii ,through his own hard work and
-        dedication, he has managed to create beautiful and meaningful pieces
-        @ether
+      Fill is a co-founder of Kandyland . Fill's expertise in animation and visual design has helped to elevate Kandyland to the forefront of the NFT space, and his contributions to the project have been instrumental in its success.
       </motion.p>
-      <Button styles="mt-8" content="Ether" />
+      <motion.p
+        variants={textVariant(0.8)}
+        className={`${styles.paragraph2} md:max-w-[90%] mt-5`}
+      >
+       Suzy Snacktime- KandyLand’s beloved sweetheart, rolemodel that everyone adores.She loves flowers, dancing and sugary snacks but be careful, her motion detectors may confuse your fingers for lollipops 🍭 😈
+      </motion.p>
+      <Button styles="mt-8" content="Kandyland" />
     </motion.div>
 
     <motion.div
@@ -49,18 +52,18 @@ const Business = () => (
       whileInView="show"
       variants={fadeIn("left", "tween", "0.2", 1)}
       viewport={{ once: true, amount: 0.25 }}
-      className={`${layout.sectionImg} flex-col justify-start sm:justify-around gap-5`}
+      className={`${layout.sectionImg} mx-7 flex-col justify-start sm:justify-around gap-5`}
     >
       {features.map((feature, index) => (
         // <Link href={feature.link}>
         <div
           key={feature.id}
-          className={`flex justify-start  sm:justify-center items-center gap-7 flex-row p-6 rounded-[20px] ${
+          className={` flex  justify-between w-full   items-center gap-7 flex-row p-6 rounded-[20px] ${
             index !== feature.length - 1 ? "mb:6" : "mb-0"
           } feature-card1  `}
         >
-          <div>
-            <div className="flex-1 flex flex-col ml-3">
+          <div className="">
+            <div className="flex-1 flex justify-start text-start flex-col ml-3">
               <h4 className="font-poppins font-semibold text-white text-[18px] leading-[20px] mb-1 ">
                 {feature.title}
               </h4>
@@ -69,11 +72,11 @@ const Business = () => (
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center sm:gap-5 ">
+          <div className="flex justify-end items-center sm:gap-5 ">
             <Link href={feature.link}>
               <button
                 type="text"
-                className={`hover:scale-110  gap-2 flex flex-row justify-center items-center py-4 px-6 bg-blue-gradient font-poppins  font-medium text-[18px] text-primary outline-none rounded-xl ${styles}`}
+                className={`hover:scale-110   gap-2 flex flex-row justify-end items-center py-4 px-6 bg-blue-gradient font-poppins  font-medium text-[18px] text-primary outline-none rounded-xl ${styles}`}
               >
                 {feature.name}
 

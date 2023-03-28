@@ -25,8 +25,8 @@ const Testimonial = () => (
         variants={fadeIn("left", "tween", "0.2", 1)}
         className="w-full mt-6 sm:mt-0 flex sm:justify-center   pb-3"
       >
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          what every one is talking about ether on twitter
+        <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
+          what every one is talking about kandyland on twitter
         </p>
       </motion.div>
     </div>

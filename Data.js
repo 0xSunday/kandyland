@@ -1,3 +1,4 @@
+import { BsGithub } from "react-icons/bs";
 import {
   airbnb,
   binance,
@@ -44,20 +45,31 @@ export const features = [
   //   content:
   //     "The best credit cards offer some tantalizing combinations of promotions and prizes",
   // },
+
   {
-    name: "VII",
+    name: "Hopper",
+    id: "feature-1",
+    icon: shield,
+
+    link: "https://twitter.com/hopperceo",
+    title: "Hopper (founder)",
+    content: "Fan of Suzy Snack time ❤️",
+  },
+
+  {
+    name: "Finn",
     id: "feature-2",
     icon: shield,
 
-    link: "https://twitter.com/visionofviii",
-    title: "VII (founder)",
-    content: "founder, an excellent artist and a perfectionist.",
+    link: "https://twitter.com/finnsreality",
+    title: "Finn (co-founder)",
+    content: "Animation studio behind Kandyland",
   },
   {
-    name: "CV",
+    name: "Suzy",
     id: "feature-3",
-    title: "CV (co-founder)",
-    link: "https://twitter.com/CValley_",
+    title: "Suzy Snacktime (core-team)",
+    link: "https://twitter.com/SuzySnacktime",
     content: "co-founder of Ether, visionary and excellent Leader.",
   },
 ];
@@ -66,25 +78,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Hi fam🖤 This is my graffiti for @ether That's what Ether is capable of inspiring. It was very cold but we did it. I am glad that I can create for a project of such a high  level #ether ❤️‍🔥👀.",
-    name: "EIGHT.eth",
-    title: "@EIGHT_eth888",
+      "This project also begin of new adventures and viewer live and suffer heros andheroines hard or enjoyable lifetimes  This project is  @kandyland_i from the @GoldenLaneCG 🍭 ",
+    name: "Shakky 🍭",
+    title: "@Shakky021",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Finding a valentine.lets hope he finds a nice waifu . @visionofviii @CValley_ @ether @SpiritEther #ether btw there is another one coming tomorrow.spoiler - nvm have some patience.",
-    name: "Kento3yyy.eth",
-    title: "@Dufresne__eth",
+      "new breath of fresh air for art in web3, its about @kandyland_io by golden lanes tudio he company that creates short films, trailers and web episodes with huge experience and background. ",
+    name: "OVERWORLD ✧",
+    title: "@elrevenge_",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "I am so impressed how  @visionofviii gives a Meaning and uniqueness to colors through his art !!!  Happy valentines with the color of passion to all  @ether lovers  #ether #togETHER.",
-    name: "PANOROM © 🟢",
-    title: "@moromalos",
+      "@kandyland_io is Not an Ordinary project that takes  SIX Months to build and produces a Substandard product, it has been under construction for almost a YEAR, which shows it's taken seriously.",
+    name: "reqvue",
+    title: "@0xreqvue",
     img: people03,
   },
 ];
@@ -112,92 +124,21 @@ export const stats = [
   },
 ];
 
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
-
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/sunil.eth/",
   },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
+
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/0xSunilReddy",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/karri-sunil-reddy-209249216/",
   },
 ];
-

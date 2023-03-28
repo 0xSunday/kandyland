@@ -60,8 +60,8 @@ const CardDeal = () => (
         variants={textVariant(0.6)}
         className={`${styles.paragraph} max-w-[470px] mt-5`}
       >
-        Winner obtain a White List Events are announced through the Ether
-        Discord and /or the official social media Accouts. The events structure
+        Winner obtain a White List Events are announced through the kandyland
+        Discord or other the official social media Accounts. The events structure
         and rules will be explained when they are annunced.
       </motion.p>
       <motion.p
@@ -75,7 +75,7 @@ const CardDeal = () => (
         variants={textVariant(1)}
         className="flex sm:flex-row flex-col justify-around items-center gap-6 p-6"
       >
-        <Link href="https://twitter.com/ether">
+        <Link href="https://twitter.com/kandyland_io">
           <button
             type="text"
             className={`hover:scale-110  gap-2 flex flex-row justify-center items-center py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-xl ${styles}`}
@@ -84,7 +84,7 @@ const CardDeal = () => (
             <BsTwitter className="text-2xl" />
           </button>
         </Link>
-        <Link href="https://twitter.com/ether">
+        <Link href="https://discord.gg/kandyland-io">
           <button
             type="text"
             className={`hover:scale-110  gap-2 flex flex-row justify-center items-center py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-xl ${styles}`}
@@ -101,7 +101,7 @@ const CardDeal = () => (
     >
       <Image
         alt="card"
-        src="/nft5.jpeg"
+        src="/kandyland_nft2.png"
         width={700}
         height={700}
         className="w-[100%] h-[100%] -scale-x-100 z-10 rounded-t-full border-2 border-white"

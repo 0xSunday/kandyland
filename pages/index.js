@@ -47,7 +47,8 @@ export default function Home() {
             <Testimonial />
             {/* <Client /> */}
             {/* <Cta /> */}
-            {/* <Footer /> */}
+            <Footer />
+           
           </div>
         </div>
       </div>
