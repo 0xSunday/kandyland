@@ -10,7 +10,7 @@ const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className="text-dimWhite pt-6 border-t-[1px] border-t-[#3f3r45] flex justify-around items-center w-full flex-col sm:flex-row leading-[50px] text-[20px] font-poppins">
       <div>
-        <p>2023 sunil reddy. All Rights Reserved.</p>
+        <p>2023 siva reddy. All Rights Reserved.</p>
       </div>
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((sm, index) => (

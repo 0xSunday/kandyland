@@ -128,17 +128,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/sunil.eth/",
+    link: "https://www.instagram.com/sivareddy.eth/",
   },
 
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://twitter.com/0xSunilReddy",
+    link: "https://twitter.com/sivareddy1112",
   },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/in/karri-sunil-reddy-209249216/",
-  },
+  // {
+  //   id: "social-media-4",
+  //   icon: linkedin,
+  //   link: "https://www.linkedin.com/in/karri-sunil-reddy-209249216/",
+  // },
 ];
